@@ -16,7 +16,7 @@ from langchain_core.runnables import RunnablePassthrough
 
 DEFAULT_PDF = "Small_Business_Template.pdf"
 CHROMA_PATH = "./chroma_db"  # we'll use a session-specific collection
-MODEL_NAME = "llama3.1:8b-instruct-q4_0"
+MODEL_NAME = "llama3.1:3b-instruct-q4_0"
 
 st.set_page_config(page_title="Business Policy Chatbot", layout="wide")
 
