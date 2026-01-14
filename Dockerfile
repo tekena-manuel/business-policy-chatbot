@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose Streamlit default port
-EXPOSE 8501
+EXPOSE 8501 11434
 
 # Run the app (Streamlit listens on port 8501)
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
